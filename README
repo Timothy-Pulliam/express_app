@@ -1,0 +1,2 @@
+# create a local MongoDB docker container
+docker run -it -d --env MONGO_INITDB_ROOT_USERNAME=root --env MONGO_INITDB_ROOT_PASSWORD=example -p 27017:27017 --name mongo mongo:latest
